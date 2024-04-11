@@ -1,0 +1,12 @@
+.result-txt > * {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.reset-button:disabled {
+    background-color: #c0c0c0; 
+    color: #767676; 
+    cursor: not-allowed;
+}
